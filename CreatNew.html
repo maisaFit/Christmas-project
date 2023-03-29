@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Create a task</title>
+    <link href="listStyle.css" rel="stylesheet" type="text/css"> 
+
+</head>
+
+<body>
+    <header role = "banner"> 
+        <h1>Do Reminder</h1>
+        <p>You will NEVER forget to do a task now!</p>
+        
+        <a href="index.html">
+            <button class="button button1">Home Page</button>
+            </a>
+            
+            <a href="list.html">
+                <button class="button button2">My To Do List Page</button>
+            </a>
+        
+    </header>
+<article>
+    <h2>Creating a new task</h2>
+    <form action="list.html">
+        <label for="field">Task for:</label><br>
+        <select id="field" name="field">
+            <option value="Shopping">Shopping</option>
+            <option value="Studying">Studying</option>
+            
+        </select> 
+        <br><br>
+        <label for="task">Task:</label><br>
+        <input type="text" id="task" name="task" placeholder="Do a thing" maxlength="100"><br><br>
+        <label for="cname">Category/Topic</label><br>
+        <input type="cat" id="cat" name="cat" placeholder="Gift" maxlength="50"><br><br>
+        <label for="cname">Course or Place:</label><br>
+        <input type="cname" id="cname" name="cname" placeholder="Web Application" maxlength="50"><br><br>
+        <label for="dd">Due Date:</label><br>
+        <input type="date" id="dd" name="dd"><br><br>
+        <label for="st">Status:</label><br>
+        <input type="status" id="status" name="status" placeholder="Complete" maxlength="50"><br>
+        
+
+        <a href="list.html">
+            <button class="button button4">Submit</button>
+        </a>
+      </form> 
+</article>
+<footer>all credits to Alhedr, Damanhori, Emneina</footer>
+</body>
